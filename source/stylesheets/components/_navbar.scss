@@ -1,12 +1,26 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.hearder-inner {
+  background: light-gray;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-rospigliosi {
+  justify-content: space-between;
+  background: transparent;
+}
+
+.navbar-rospigliosi .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-rospigliosi .navbar-brand img {
   width: 40px;
+}
+
+#nav-color {
+
+  color: #101010;
+
+    &:hover {
+      opacity: 0.6;
+    }
+
 }
