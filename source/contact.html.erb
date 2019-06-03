@@ -3,38 +3,59 @@
 
   </div>
 
-  <div class="container">
-    <div class="row">
-      <div class="contact-form d-flex mt-60">
-
+  <div class="container pt-5 pb-16">
+    <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-4 contact-details">
-          <h5>CONTACTS</h5>
-          <p>Via dell’Annunciata, 31 20121 Milano</p>
-          <p>Tel. +39 02 636 799/00</p>
-          <p>segreteria@emanuelaschmeidler.com</p>
+          <h5>CONTACT</h5>
+          <p>
+            Piazza Borromeo, 10 <br>
+            20123 Milano - IT <br>
+            Tel. +39 3461606391 <br>
+            olimpia@olimpiarospigliosi.it <br>
+          </p>
         </div>
+
         <div class="col-12 col-md-8 form">
           <form class="form" id="contactform" action="//formspree.io/regis_weill@hotmail.com" method="POST">
-            <fieldset class="field">
-              <input class="input" type="text" name="name" placeholder="Name" id="name" required>
-              <label class="label" for="name"><span class="label-content">Your name</span></label>
-            </fieldset>
-            <fieldset class="field">
-              <input class="input" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
-              <label class="label" for="_replyto"><span class="label-content">Your email</span></label>
-            </fieldset>
-            <fieldset class="field">
-             <textarea class="input" name="message" rows="1" placeholder="Message" id="message" required></textarea>
-             <label class="label" for="message"><span class="label-content">Your message</span></label>
-             </fieldset>
+            <h5 class="mb-14">WRITE US</h5>
+            <div class="form-row">
+              <div class="col-6 form-group">
+                <fieldset class="field">
+                  <input class="input form-control" type="text" name="first_name" placeholder="Your first name" id="first_name" required>
+                </fieldset>
+              </div>
+              <div class="col-6 form-group">
+                <fieldset class="field">
+                  <input class="input form-control" type="text" name="last_name" placeholder="Your last name" id="last_name" required>
+                </fieldset>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <fieldset class="field">
+                <input class="input form-control" type="company" name="company" placeholder="Your company name" id="company" required>
+              </fieldset>
+            </div>
+
+            <div class="form-group">
+              <fieldset class="field">
+                <input class="input form-control" type="email" name="_replyto" placeholder="example@domain.com" id="_replyto" required>
+              </fieldset>
+            </div>
+
+            <div class="form-group">
+              <fieldset class="field">
+               <textarea class="input form-control" name="message" rows="10" placeholder="Message" id="message" required></textarea>
+               </fieldset>
+            </div>
              <input class="hidden" type="text" name="_gotcha" style="display:none">
              <input class="hidden" type="hidden" name="_subject" value="Message via http://domain.com">
             <fieldset class="field">
-              <input class="button submit" type="submit" value="Send">
+              <input class=" submit btn btn-contact" type="submit" value="CONTACT US">
             </fieldset>
           </form>
         </div>
-      </div><!-- contact-form -->
+
     </div><!-- row -->
   </div><!-- end container -->
 </div><!-- end wrapper -->
