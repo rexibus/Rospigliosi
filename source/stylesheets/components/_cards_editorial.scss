@@ -9,9 +9,10 @@
 }
 
 .card-editorial > img {
-  height: 200px;
+  height: 400px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 32px;
 }
 
 .card-editorial h2 {
@@ -29,5 +30,5 @@
 
 .card-editorial .card-editorial-details {
   padding: 14px;
-  height: 80px;
+  height: 100px;
 }
