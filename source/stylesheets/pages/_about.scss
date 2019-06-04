@@ -40,6 +40,23 @@
   padding: 150px;
   max-width: 100%;
   height: auto;
+  margin-bottom: 18px;
+}
+
+.banner-about-profile {
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.banner-about-company {
+  padding-top: 0px;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-bottom: 16px;
+  margin-top: 0px;
 }
 
 #about-title {
@@ -60,3 +77,10 @@
   }
 }
 
+.content-about {
+  padding: 32px;
+}
+
+.profile {
+  height: 972px;
+}
