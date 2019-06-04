@@ -27,7 +27,36 @@
 //     letter-spacing: -0.5px;
 //     font-size: 15px;
 //   }
-//   .fa-heart {
-//     color: #D23333;
-//   }
-// }
+
+.banner {
+  text-align: center;
+}
+
+.banner-img {
+  background-image: url('../images/about2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  padding: 150px;
+  max-width: 100%;
+  height: auto;
+}
+
+#about-title {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+#about-text {
+  p {
+  font-size: 20px;
+  color: white;
+  opacity: 0.8;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+}
+
