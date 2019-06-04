@@ -137,9 +137,19 @@ title: OR - Olimpia Rospigliosi Agency | Relazioni Pubbliche & Communicazioni
     <div>
       <h3>Recent Events</h3>
     </div>
-    <div class="cards-events">
-
-    </div>
+    <div class="row cards-event">
+      <% data.events.each do |event| %>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card-event">
+            <%= image_tag "#{event.picture}" %>
+            <div class="card-event-details d-flex flex-column justify-content-between">
+              <h2><%= event.title %></h2>
+              <h3><%= event.date %></h3>
+            </div>
+          </div>
+        </div><!--/.col-->
+      <% end %>
+    </div><!--/.row-->
   </div>
 </div>
 
