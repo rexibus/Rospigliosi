@@ -37,4 +37,15 @@
   margin-bottom: 22px;
 }
 
+#credit_link {
+  color: #909090;
+  text-decoration: none;
+
+  &:hover {
+  opacity: 0.7;
+  color: #ffffff;
+  }
+}
+
+
 
