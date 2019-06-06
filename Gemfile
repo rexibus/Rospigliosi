@@ -6,6 +6,7 @@ gem 'middleman-autoprefixer', '~> 2.7'
 gem 'middleman-sprockets'
 gem 'middleman-deploy', git: 'https://github.com/lewagon/middleman-deploy.git'
 gem 'pry-byebug', require: true
+gem 'rack-contrib', '~> 2.1'
 
 # Assets
 gem 'font-awesome-sass', '~> 5.8', '>= 5.8.1'
