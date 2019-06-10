@@ -113,11 +113,13 @@ p {
     grid-template-columns: 1fr;
   }
   .carousel-caption > h3 {
-    font-size: 20px;
+    font-size: 19px;
+    opacity: 1;
   }
 
   .carousel-caption > p {
-    font-size: 12px;
+    font-size: 10px;
+    opacity: 0.8;
   }
 }
 
