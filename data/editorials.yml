@@ -3,7 +3,7 @@
   month: 'GIUGNO'
   year: '2019'
   date: '12 Giugno, 2019'
-  picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560860220/sito/Editorials/VOGUE.IT_KINLOCH_190610_uv7wxj.jp"
+  picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560860220/sito/Editorials/VOGUE.IT_KINLOCH_190610_uv7wxj.jpg"
 - name: 'FEDERICA PICCOLI'
   magazine: 'CORRIERE DELLA SERA'
   month: 'GIUGNO'
@@ -45,7 +45,7 @@
   month: 'MAGGIO'
   year: '2019'
   date: '15 Maggio 2019'
-  picture: “https://res.cloudinary.com/pimpi1/image/upload/v1560860526/sito/Editorials/CHI_AGALMAMEDUSAE_190515_xcnauz.jpg”
+  picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560860471/sito/Editorials/TUSTYLE_AGALMAMEDUSAE_190515_hygio4.jpg"
 - name: 'FEDERICA PICCOLI / KINLOCH'
   magazine: 'ELLE ITALIA'
   month: 'APRILE'
@@ -226,3 +226,4 @@
   year: '2017'
   date: '1 Gennaio 2017'
   picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560964286/sito/Editorials/VOGUESPOSA_AGALMAMEDUSAE_170101_lbwemp.jpg"
+
