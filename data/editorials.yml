@@ -45,7 +45,7 @@
   month: 'MAGGIO'
   year: '2019'
   date: '15 Maggio 2019'
-  picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560860471/sito/Editorials/TUSTYLE_AGALMAMEDUSAE_190515_hygio4.jpg"
+  picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560860526/sito/Editorials/CHI_AGALMAMEDUSAE_190515_xcnauz.jpg"
 - name: 'FEDERICA PICCOLI / KINLOCH'
   magazine: 'ELLE ITALIA'
   month: 'APRILE'
@@ -58,12 +58,6 @@
   year: '2019'
   date: '1 Aprile 2019'
   picture: " https://res.cloudinary.com/pimpi1/image/upload/v1560862884/sito/Editorials/F_AFHRA_190401_kclhct.jpg"
-- name: 'KINLOCH'
-  magazine: 'GRAZIA'
-  month: 'APRILE'
-  year: '2019'
-  date: '4 Aprile 2019'
-  picture: "https://res.cloudinary.com/pimpi1/image/upload/v1560863021/sito/Editorials/GRAZIA_KINLOCH_190404_ykgxda.jpg"
 - name: 'KINLOCH'
   magazine: 'GRAZIA'
   month: 'APRILE'
