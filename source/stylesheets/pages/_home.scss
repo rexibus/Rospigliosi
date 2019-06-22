@@ -50,14 +50,6 @@
 //   height: 59%;
 // }
 
-.carousel-control-next {
-  top: 105px;
-}
-
-.carousel-control-prev {
-  top: 105px;
-}
-
 .carousel-inner {
 
   h3 {
@@ -108,12 +100,14 @@ p {
   .cards-events {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
 }
 
 @media (max-width: 720px) {
   .cards-events {
     grid-template-columns: 1fr 1fr;
   }
+
 }
 
 @media (max-width: 540px) {
