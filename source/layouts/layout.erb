@@ -32,6 +32,15 @@
     <meta name="twitter:creator" content="@OlimpiaRospigli">
     <meta name="twitter:image:src" content="http://twitter-card.jpg">
 
+
+  </head>
+
+  <body>
+    <%= partial "layouts/navbar" %>
+    <%= yield %>
+    <%= partial "layouts/footer_top" %>
+    <%= partial "layouts/footer_bottom" %>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142468167-1"></script>
     <script>
@@ -42,12 +51,5 @@
       gtag('config', 'UA-142468167-1');
     </script>
 
-  </head>
-
-  <body>
-    <%= partial "layouts/navbar" %>
-    <%= yield %>
-    <%= partial "layouts/footer_top" %>
-    <%= partial "layouts/footer_bottom" %>
   </body>
 </html>
